@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Företagets Namn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Företagets Namn</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Startsida</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#products">Produkter</a></li>
+                <li><a href="#testimonials">Referenser</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Startsida -->
+    <section id="home">
+        <h2>Välkommen till Företaget</h2>
+        <p>Vi erbjuder de bästa produkterna för dina behov!</p>
+        <a href="#products" class="cta">Se våra produkter</a>
+    </section>
+
+    <!-- Om oss -->
+    <section id="about">
+        <h2>Om Oss</h2>
+        <p>Vår historia började år XXXX. Vi strävar efter att...</p>
+        <h3>Vårt motto</h3>
+        <p>"Kvalitet är vår prioritet!"</p>
+
+        <div class="employees">
+            <h3>Våra anställda</h3>
+            <div class="employee">
+                <img src="employee1.jpg" alt="Anställd 1">
+                <p>Namn: Anställd 1</p>
+                <p>Roll: VD</p>
+                <p>Email: ans1@foretag.se</p>
+            </div>
+            <!-- Lägg till fler anställda här -->
+        </div>
+    </section>
+
+    <!-- Produkter -->
+    <section id="products">
+        <h2>Våra Produkter</h2>
+        <div class="product">
+            <h3>Produkt 1</h3>
+            <p>Beskrivning av produkt 1</p>
+            <p>Pris: 999kr</p>
+            <button>Köp nu</button>
+        </div>
+        <!-- Lägg till fler produkter här -->
+    </section>
+
+    <!-- Referenser -->
+    <section id="testimonials">
+        <h2>Vad våra kunder säger</h2>
+        <div class="testimonial">
+            <p>"Fantastisk produkt!" - Kund 1</p>
+            <p>Betyg: 5/5</p>
+        </div>
+        <!-- Lägg till fler recensioner här -->
+    </section>
+
+    <!-- Kontakt -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Adress: Företagsgatan 1, 12345 Stockholm</p>
+        <p>Telefon: 070 123 45 67</p>
+        <img src="office.jpg" alt="Kontor">
+        
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Ämne:</label>
+            <select id="subject" name="subject">
+                <option value="purchase">Köp av produkt/tjänst</option>
+                <option value="questions">Frågor om företaget</option>
+                <option value="feedback">Synpunkter på webbplats</option>
+            </select>
+            
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Företagets Namn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
