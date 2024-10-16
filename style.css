@@ -116,3 +116,49 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#kontakta-oss{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.forum{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    padding-left: 25px;
+    border-radius: 50px;
+}
+
+.forum textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.forum button{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(#3e7c46, #08e125);
+    cursor: pointer;
+}
+
+.företag-info{
+    border: solid black;
+    border-radius: 30px;
+    padding: 40px 30px;
+    background: lightblue;
+}
