@@ -61,13 +61,15 @@ nav ul li a:hover {
 
 #products {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .product {
-    flex-basis: 30%;
+    background-color: #e0d6ff;
+    text-align: center;
+    flex-basis: 33%;
+    align-self: auto;
 }
 
 #about img, #contact img {
