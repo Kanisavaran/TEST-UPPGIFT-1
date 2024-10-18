@@ -38,6 +38,11 @@ nav a:hover {
     background-color: #5a5a5a;
 }
 
+.navselected{
+    color: #e0d6ff;
+    font-style: italic;
+}
+
 .about {
     padding: 20px;
     background-color: #e0d6ff;
@@ -69,7 +74,7 @@ nav a:hover {
     border-style: groove;
     border-radius: 100%;
     border-color: #e0d6ff;
-    background-color: #C6DCC9;
+    background-color: #b6d0e2;
     font-size: 1.2em;
     font-style: italic;
     font-weight: bolder;
@@ -92,7 +97,7 @@ nav a:hover {
 .product .buy {
     width: 5em;
     height: 3em;
-    background-color: #b6d0e2;
+    background-color: #C6DCC9;
     border-style: ridge;
     border-radius: 25%;
 }
