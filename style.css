@@ -14,7 +14,7 @@ header {
 }
 
 .logo{
-    margin-top: 2.5em;
+    font-size: 1.5em;
 }
 
 nav{
@@ -57,6 +57,24 @@ nav a:hover {
     background-color: #C6DCC9; 
 }
 
+.prodtext{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.prodtext .title{
+    width: 15%;
+    border-style: groove;
+    border-radius: 100%;
+    border-color: #e0d6ff;
+    background-color: #C6DCC9;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
 #products {
     display: flex;
     flex-flow: row wrap;
@@ -69,6 +87,18 @@ nav a:hover {
     flex-basis: 30%;
     margin-bottom: 3em;
     align-self: auto;
+}
+
+.product .buy {
+    width: 5em;
+    height: 3em;
+    background-color: #b6d0e2;
+    border-style: ridge;
+    border-radius: 25%;
+}
+
+.product .buy:active{
+    background-color: gainsboro;
 }
 
 #about img, #contact img {
