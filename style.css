@@ -91,7 +91,16 @@ nav a:hover {
     text-align: center;
     flex-basis: 30%;
     margin-bottom: 3em;
-    align-self: auto;
+    padding: 1em;
+}
+
+.product h3 {
+    border-style: ridge;
+    background-color: #b6d0e2;
+}
+
+.product img {
+    width: 80%;
 }
 
 .product .buy {
