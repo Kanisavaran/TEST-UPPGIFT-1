@@ -5,6 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -41,7 +42,7 @@ a:hover {
 
 .about {
     padding: 20px;
-    background-color: #e0d6ff;
+    background-color: #e0d6ff ;
     text-align: center;
 }
 
