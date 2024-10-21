@@ -3,104 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fiore AB</title>
+    <title>Referenser - Fiore AB</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-    <!-- Header -->
     <header>
-        <!-- Navbar -->
+
         <nav>
-            <a href="index.html">Startsida</a>
-            <a href="about.html">Om oss</a>
-            <a href="products.html">Produkter</a>
-            <a href="tt.html">Referenser</a>
-            <a href="contact.html">Kontakta oss</a>     
+            <ul>
+                <a href="index.html"><li>Startsida</li></a>
+                <a href="about.html"><li>Om oss</li></a>
+                <a href="products.html"><li>Produkter</li></a>
+                <a href="contact.html"><li>Kontakta oss</li></a>
+            </ul>
         </nav>
-        
+
         <div class="logo">
-            <h1>Fiore</h1>
+            <img src="https://i.imghippo.com/files/dwm9R1729292597.jpg" alt="Fiore AB Logo" style="width: 100px;"> 
+            <h1>Fiore AB</h1>
         </div>
+        
     </header>
 
-    <!-- Startsida -->
-    <section id="home">
-        <h2>Välkommen till Företaget</h2>
-        <p>Vi erbjuder de bästa produkterna för dina behov!</p>
-        <a href="#products" class="cta">Se våra produkter</a>
-    </section>
 
-    <!-- Om oss -->
-    <section id="about">
-        <h2>Om Oss</h2>
-        <p>Vår historia började år XXXX. Vi strävar efter att...</p>
-        <h3>Vårt motto</h3>
-        <p>"Kvalitet är vår prioritet!"</p>
-
-        <div class="employees">
-            <h3>Våra anställda</h3>
-            <div class="employee">
-                <img src="employee1.jpg" alt="Anställd 1">
-                <p>Namn: Anställd 1</p>
-                <p>Roll: VD</p>
-                <p>Email: ans1@foretag.se</p>
+    <main>
+        <section class="references">
+            <h2>Referenser</h2>
+            <div class="review">
+                <h3>Anna S. (Privatperson)</h3>
+                <p>"Fantastiska blommor och otroligt snabb leverans! Jag kunde inte ha varit mer nöjd."</p>
+                <p><strong>Betyg:</strong> 5/5</p>
             </div>
-            <!-- Lägg till fler anställda här -->
-        </div>
-    </section>
+            <div class="review">
+                <h3>Blomsterbutiken ABC (Företag)</h3>
+                <p>"Fiore AB levererar alltid produkter av hög kvalitet som våra kunder älskar. Rekommenderas varmt!"</p>
+                <p><strong>Betyg:</strong> 4.5/5</p>
+            </div>
+            <div class="review">
+                <h3>Erik J. (Privatperson)</h3>
+                <p>"Vackra buketter och mycket bra kundservice. Ett perfekt ställe för speciella tillfällen."</p>
+                <p><strong>Betyg:</strong> 5/5</p>
+            </div>
+            <div class="review">
+                <h3>Restaurang Blå Lotus (Företag)</h3>
+                <p>"Vi använder Fiore AB för alla våra dekorationer. Blommorna är alltid fräscha och vackra."</p>
+                <p><strong>Betyg:</strong> 4/5</p>
+            </div>
+        </section>
+    </main>
 
-    <!-- Produkter -->
-    <section id="products">
-        <h2>Våra Produkter</h2>
-        <div class="product">
-            <h3>Produkt 1</h3>
-            <p>Beskrivning av produkt 1</p>
-            <p>Pris: 999kr</p>
-            <button>Köp nu</button>
-        </div>
-        <!-- Lägg till fler produkter här -->
-    </section>
-
-    <!-- Referenser -->
-    <section id="testimonials">
-        <h2>Vad våra kunder säger</h2>
-        <div class="testimonial">
-            <p>"Fantastisk produkt!" - Kund 1</p>
-            <p>Betyg: 5/5</p>
-        </div>
-        <!-- Lägg till fler recensioner här -->
-    </section>
-
-    <!-- Kontakt -->
-    <section id="contact">
-        <h2>Kontakt</h2>
-        <p>Adress: Företagsgatan 1, 12345 Stockholm</p>
-        <p>Telefon: 070 123 45 67</p>
-        <img src="office.jpg" alt="Kontor">
-        
-        <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="subject">Ämne:</label>
-            <select id="subject" name="subject">
-                <option value="purchase">Köp av produkt/tjänst</option>
-                <option value="questions">Frågor om företaget</option>
-                <option value="feedback">Synpunkter på webbplats</option>
-            </select>
-            
-            <label for="message">Meddelande:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Skicka</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Företagets Namn. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://i.imghippo.com/files/dwm9R1729292597.jpg" alt="Företagslogga"
+                <p>Fiore AB</p>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="om-oss.html">Om Oss</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li><a href="referenser.html">Referenser</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>&copy; 2024 Företaget AB. All rights reserved.</p>
     </footer>
 </body>
 </html>
