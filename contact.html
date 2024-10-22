@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document1</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <a href="index.html">Startsida</a>
+            <a href="about.html">Om oss</a>
+            <a href="products.html">Produkter</a>
+            <a href="tt.html">Referenser</a>
+            <a href="contact.html">Kontakta oss</a>     
+        </nav>
+        
+        <div class="logo">
+            <h1>Fiore</h1>
+        </div>
+    </header>
     
-</body>
+    <section id="kontakta-oss">
+        <!-- Formulär för att kontakta företaget -->
+        <div class="forum">
+            <h2>Skicka oss mejl</h2>
+            <p>Email</p>
+            <input type="email" name="email" class="contact-inputs" placeholder="Email" required>
+            <label for="subject">Fråga</label>
+                <select class="contact-inputs">
+                    <option value="Option-1">Köp av produkt/tjänst</option>
+                    <option value="Option-2">Frågor om företaget</option>
+                    <option value="Option-3">Synpunkter på webbplats</option>
+                    <option value="Other">Other</option>
+                </select>
+            <p>Text</p>
+            <textarea name="text" class="contact-inputs" placeholder="Text" required></textarea>
+            <button type="submit">Submit</button>
+        </div>
+        
+        <!-- Information av företaget -->
+        <div class="företag-info">
+                <h2>Du kan kontakta oss via </h2>
+                <hr>
+                <p>Adress: Företagsgatan 1, 12345 Stockholm</p>
+                <p>Telefon: 070 123 45 67</p>
+                <img src="office.jpg" alt="Kontor">
+        </div>
+        
+    </section>
+    <br><br>
+    <footer>
+        <p>&copy; 2024 Företaget AB. All rights reserved.</p>
+    </footer>
+
+    </body>
 </html>
