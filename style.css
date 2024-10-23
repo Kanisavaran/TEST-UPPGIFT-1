@@ -64,6 +64,15 @@ nav a:hover {
     border-width: 10px;
 }
 
+#pics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#pics img {
+    width: 20%;
+}
+
 .about {
     padding: 20px;
     background-color: #e0d6ff;
