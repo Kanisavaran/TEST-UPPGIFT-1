@@ -4,6 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -28,7 +29,6 @@ nav ul li {
     margin: 0 15px;
 }
 
-
 a {
     color: white;
     text-decoration: none;
@@ -36,6 +36,8 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: rgb(237, 223, 110);
+    font-style: italic;
 }
 
 .about {
@@ -51,13 +53,13 @@ a:hover {
 }
 
 .team {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     padding: 20px;
     background-color: #C6DCC9; 
 }
-
 
 .team-member {
     background-color: #B6D0E2; 
@@ -78,11 +80,17 @@ a:hover {
     color: #5a5a5a;
     margin: 10px 0 5px;
 }
-.team-member:hover {
-    transform: scale(1.05); 
-    transition: transform 0.3s ease-in-out; 
-}
 
+.team-member:hover {
+    transform: scale(1.15); 
+    transition: transform 0.3s ease-in-out; 
+    background-color: #e0d6ff;
+}
+.review:hover {
+    transform: scale(1.09); 
+    transition: transform 0.3s ease-in-out; 
+    background-color: #C6DCC9;
+}
 
 @media (min-width: 1024px) {
     .team {
@@ -144,8 +152,6 @@ footer {
     
         display: flex;
         align-items: center;
-      
-
 }
 
 .footer-logo img {
@@ -172,15 +178,14 @@ footer {
 
 
 
-
 .logo {
     display: flex; 
     align-items: center; 
 }
 
 .logo img {
-    width: 100px; 
-    height: 100px;
+    width: 40px; 
+    height: 90px; 
     border-radius: 50%; 
-    margin-right: 15px; 
+    margin-right: 10px; 
 }
